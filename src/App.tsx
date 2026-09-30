@@ -17,6 +17,7 @@ import { InspirationGallery } from './components/InspirationGallery';
 import { SavedDesignsModal } from './components/SavedDesignsModal';
 import { GeminiChatbot } from './components/GeminiChatbot';
 import { Shirt, Type, Image as ImageIcon, Sparkles, Layers, Printer, Wand2, Pencil } from 'lucide-react';
+import { Analytics } from '@vercel/analytics/react';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState<'studio' | 'mockup' | 'gallery' | 'saved'>('studio');
@@ -554,6 +555,7 @@ export default function App() {
           layersCount={layers.length}
         />
       )}
+      <Analytics />
     </div>
   );
 }
