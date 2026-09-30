@@ -1,0 +1,8 @@
+{
+  "name": "ThreadCraft AI - Custom Apparel Studio",
+  "description": "Design your own custom clothes, t-shirts, hoodies, jackets, caps & accessories with interactive 2D canvas, AI graphic generator, realistic mockups, and print-ready tech packs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
